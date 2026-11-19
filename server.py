@@ -7,4 +7,4 @@ def home():                     # 6-7th line is the function in the homepage and
   return "<h1>Hello World!</h1>"# you can do the HTML too
 
 if __name__ == '__main__':
-  app.run()
+  app.run(debug=True)
